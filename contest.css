@@ -128,25 +128,34 @@ body{
     /* margin-left: 250px; */
     cursor: pointer;
 }
-.fistImage:hover{
-    transform: scale(0.9);
+.fistImage:
+
+
+
+
+{
+    transform: scale(1.1);
     z-index:2 ;
     cursor: pointer;
+    overflow: hidden;
 }
 .twoimg:hover{
-    transform: scale(0.9);
+    transform: scale(1.1);
     z-index:2 ;
     cursor: pointer;
+    overflow: hidden;
 }
 .phot:hover{
-    transform: scale(0.9);
+    transform: scale(1.1);
     z-index:2 ;
     cursor: pointer;
+    overflow: hidden;
 }
 .img2:hover{
-    transform: scale(0.9);
+    transform: scale(1.1);
     z-index:2;
     cursor: pointer;
+    overflow: hidden;
 }
 .hline{
     height: 1px;
@@ -170,7 +179,7 @@ body{
 }
 
 
-@media (max-width:700px) {
+@media (max-width:710px) {
     body{
             font-size: 50%;
             flex-direction: column;
@@ -203,5 +212,11 @@ body{
         font-size: 50%;
         width: 100%;
          height: 10vh
+    }
+    .museo{
+        background-color: #343124;
+    }
+    .butt2{
+        background-color:#1A1C19;
     }
 }
