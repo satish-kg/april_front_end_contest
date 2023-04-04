@@ -12,7 +12,7 @@ body{
     color: antiquewhite;
     display: flex;
     justify-content: space-between;
-    border: 2px white solid;
+    border: 2px solid #8F8868;
     border-radius: 15px;
     padding: 10px;
     padding-left: 1px;
@@ -20,12 +20,12 @@ body{
     margin: 5px;
     /* margin-left: 0px; */
 }
-.museo{
+/* .museo{
         background-color: #343124;
 }
 .butt2{
     background-color:#1A1C19;
-}
+} */
 .iems{
     border: 1px solid white;
     border-radius: 15px;
